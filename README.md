@@ -1,16 +1,92 @@
-# React + Vite
+# DineManager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+DineManager is a web-based restaurant operations management system.  
+It simulates real-world workflows including staff management, inventory tracking, order processing, and table-based billing.
 
-Currently, two official plugins are available:
+The application is built using React and demonstrates dynamic UI behavior, state management, and real-time data simulation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Access the application here:
 
-## Expanding the ESLint configuration
+https://dinemanager-eight.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Login Credentials
+Username: admin  
+Password: admin
+
+---
+
+## How to Run Locally
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm
+
+### Steps
+
+# Clone repository
+git clone https://github.com/sshridhar5474/dinemanager.git
+
+# Navigate to project folder
+cd dinemanager
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+Open in browser:
+http://localhost:5173
+
+---
+
+## JavaScript Features
+
+### 1. Authentication
+- Login using provided credentials
+- Data persists during session
+- Logging out resets all data
+
+### 2. Dashboard
+- Real-time overview of operations
+- Staff presence ratio
+- Inventory alerts
+- Order statistics
+- Activity chart
+- Average order completion time indicator
+
+### 3. Staff Management
+- Toggle staff attendance (present/absent)
+- Filter and view different roles
+
+### 4. Inventory
+- Track ingredient quantities
+- Low stock and out-of-stock detection
+- Restocking functionality
+- Automatic updates when orders are placed
+
+### 5. Orders
+- Select table before placing orders
+- Place orders using menu items
+- Orders move automatically through stages:
+  Pending → Preparing → Ready → Completed
+- Completed orders are removed after a short duration
+
+### 6. Table Management
+- View all tables with live data
+- See items ordered per table
+- Track total bill
+- Click a table to view detailed orders
+- Generate bill to clear table
+
+---
+
+## Notes
+- Data is stored in browser localStorage
+- Designed as a simulation of restaurant operations
+- Built for learning web programming concepts using React, CSS, and JavaScript
