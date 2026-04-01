@@ -1,0 +1,22 @@
+export const inventoryData = [
+  { id: 1, name: "Chicken Breast", quantity: 24, threshold: 8 },
+  { id: 2, name: "Pasta", quantity: 30, threshold: 10 },
+  { id: 3, name: "Beef Patty", quantity: 18, threshold: 6 },
+  { id: 4, name: "Burger Bun", quantity: 22, threshold: 8 },
+  { id: 5, name: "Lettuce", quantity: 16, threshold: 6 },
+  { id: 6, name: "Tomato", quantity: 18, threshold: 6 },
+  { id: 7, name: "Cheese Slice", quantity: 20, threshold: 8 },
+  { id: 8, name: "Pizza Dough", quantity: 14, threshold: 5 },
+  { id: 9, name: "Mozzarella", quantity: 16, threshold: 6 },
+  { id: 10, name: "Pepperoni", quantity: 12, threshold: 4 },
+  { id: 11, name: "Rice", quantity: 28, threshold: 10 },
+  { id: 12, name: "Salmon Fillet", quantity: 10, threshold: 4 },
+  { id: 13, name: "Tortilla", quantity: 20, threshold: 8 },
+  { id: 14, name: "Avocado", quantity: 14, threshold: 5 },
+  { id: 15, name: "Shrimp", quantity: 15, threshold: 5 },
+  { id: 16, name: "Mixed Greens", quantity: 18, threshold: 6 },
+  { id: 17, name: "Fries", quantity: 26, threshold: 10 },
+  { id: 18, name: "Onion", quantity: 20, threshold: 8 },
+  { id: 19, name: "Garlic", quantity: 20, threshold: 8 },
+  { id: 20, name: "Butter", quantity: 18, threshold: 6 }
+];
